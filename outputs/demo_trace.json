@@ -1,0 +1,380 @@
+{
+  "extracted": {
+    "source_name": "erp_method_bad.md",
+    "participant_n": {
+      "name": "participant_n",
+      "value": "Thirty-two",
+      "evidence": "# Example EEG/ERP Methods Text with Deliberate Reporting Gaps Thirty-two undergraduate students participated in the experiment.",
+      "evidence_level": "direct_text_evidence",
+      "confidence": 0.65
+    },
+    "channels": {
+      "name": "channels",
+      "value": "64",
+      "evidence": "EEG was recorded with a 64-channel Brain Products system.",
+      "evidence_level": "direct_text_evidence",
+      "confidence": 0.8
+    },
+    "montage": {
+      "name": "montage",
+      "value": "Brain Products",
+      "evidence": "EEG was recorded with a 64-channel Brain Products system.",
+      "evidence_level": "direct_text_evidence",
+      "confidence": 0.75
+    },
+    "sampling_rate": {
+      "name": "sampling_rate",
+      "value": "500 Hz",
+      "evidence": "The EEG was sampled at 500 Hz.",
+      "evidence_level": "direct_text_evidence",
+      "confidence": 0.85
+    },
+    "online_reference": {
+      "name": "online_reference",
+      "value": null,
+      "evidence": "",
+      "evidence_level": "not_reported",
+      "confidence": 0.0
+    },
+    "offline_reference": {
+      "name": "offline_reference",
+      "value": null,
+      "evidence": "",
+      "evidence_level": "not_reported",
+      "confidence": 0.0
+    },
+    "impedance": {
+      "name": "impedance",
+      "value": null,
+      "evidence": "",
+      "evidence_level": "not_reported",
+      "confidence": 0.0
+    },
+    "high_pass": {
+      "name": "high_pass",
+      "value": "0.5 Hz",
+      "evidence": "Data were filtered from 0.5 to 30 Hz and segmented from -200 ms to 800 ms relative to stimulus onset.",
+      "evidence_level": "direct_text_evidence",
+      "confidence": 0.85
+    },
+    "low_pass": {
+      "name": "low_pass",
+      "value": "30 Hz",
+      "evidence": "Data were filtered from 0.5 to 30 Hz and segmented from -200 ms to 800 ms relative to stimulus onset.",
+      "evidence_level": "direct_text_evidence",
+      "confidence": 0.85
+    },
+    "notch_filter": {
+      "name": "notch_filter",
+      "value": null,
+      "evidence": "",
+      "evidence_level": "not_reported",
+      "confidence": 0.0
+    },
+    "filter_details": {
+      "name": "filter_details",
+      "value": "Data were filtered from 0.5 to 30 Hz and segmented from -200 ms to 800 ms relative to stimulus onset.",
+      "evidence": "Data were filtered from 0.5 to 30 Hz and segmented from -200 ms to 800 ms relative to stimulus onset.",
+      "evidence_level": "direct_text_evidence",
+      "confidence": 0.6
+    },
+    "epoch_window": {
+      "name": "epoch_window",
+      "value": "-200 ms to 800 ms",
+      "evidence": "Data were filtered from 0.5 to 30 Hz and segmented from -200 ms to 800 ms relative to stimulus onset.",
+      "evidence_level": "direct_text_evidence",
+      "confidence": 0.85
+    },
+    "baseline": {
+      "name": "baseline",
+      "value": "-200 to 0 ms",
+      "evidence": "Baseline correction used the -200 to 0 ms interval.",
+      "evidence_level": "direct_text_evidence",
+      "confidence": 0.85
+    },
+    "artifact_rejection": {
+      "name": "artifact_rejection",
+      "value": "Trials with large artifacts were rejected.",
+      "evidence": "Trials with large artifacts were rejected.",
+      "evidence_level": "direct_text_evidence",
+      "confidence": 0.7
+    },
+    "ica": {
+      "name": "ica",
+      "value": "ICA was used to remove ocular artifacts.",
+      "evidence": "ICA was used to remove ocular artifacts.",
+      "evidence_level": "direct_text_evidence",
+      "confidence": 0.8
+    },
+    "eog_handling": {
+      "name": "eog_handling",
+      "value": null,
+      "evidence": "",
+      "evidence_level": "not_reported",
+      "confidence": 0.0
+    },
+    "bad_channels_epochs": {
+      "name": "bad_channels_epochs",
+      "value": null,
+      "evidence": "",
+      "evidence_level": "not_reported",
+      "confidence": 0.0
+    },
+    "trial_count": {
+      "name": "trial_count",
+      "value": "28",
+      "evidence": "After preprocessing, approximately 28 trials per condition remained.",
+      "evidence_level": "direct_text_evidence",
+      "confidence": 0.65
+    },
+    "roi_electrodes": {
+      "name": "roi_electrodes",
+      "value": "The N170 was measured at PO7 and PO8.",
+      "evidence": "The N170 was measured at PO7 and PO8.",
+      "evidence_level": "direct_text_evidence",
+      "confidence": 0.65
+    },
+    "time_window": {
+      "name": "time_window",
+      "value": null,
+      "evidence": "",
+      "evidence_level": "not_reported",
+      "confidence": 0.0
+    },
+    "erp_components": {
+      "name": "erp_components",
+      "value": "N170, P3, N400, LPP",
+      "evidence": "For the ERP analysis, we focused on N170, N400 and LPP.",
+      "evidence_level": "direct_text_evidence",
+      "confidence": 0.9
+    },
+    "statistics": {
+      "name": "statistics",
+      "value": "Repeated-measures ANOVAs were conducted for each component.",
+      "evidence": "Repeated-measures ANOVAs were conducted for each component.",
+      "evidence_level": "direct_text_evidence",
+      "confidence": 0.75
+    },
+    "multiple_comparison": {
+      "name": "multiple_comparison",
+      "value": null,
+      "evidence": "",
+      "evidence_level": "not_reported",
+      "confidence": 0.0
+    },
+    "effect_size_ci": {
+      "name": "effect_size_ci",
+      "value": null,
+      "evidence": "",
+      "evidence_level": "not_reported",
+      "confidence": 0.0
+    },
+    "preregistration": {
+      "name": "preregistration",
+      "value": null,
+      "evidence": "",
+      "evidence_level": "not_reported",
+      "confidence": 0.0
+    },
+    "exclusion_criteria": {
+      "name": "exclusion_criteria",
+      "value": null,
+      "evidence": "",
+      "evidence_level": "not_reported",
+      "confidence": 0.0
+    },
+    "raw_text_length": 886
+  },
+  "issues": [
+    {
+      "issue_id": "MISSING_REFERENCE",
+      "title": "缺少关键 EEG/ERP 方法参数：reference",
+      "severity": "high",
+      "category": "reporting",
+      "description": "未在文本中稳定识别到 reference。这会削弱可重复性，也会让审稿人无法判断 ERP 测量是否可靠。",
+      "evidence": "not reported or not detected",
+      "recommendation": "区分在线参考与离线重参考。",
+      "rationale": ""
+    },
+    {
+      "issue_id": "HIGH_PASS_SLOW_COMPONENT_RISK",
+      "title": "高通滤波可能影响慢波/晚期成分解释",
+      "severity": "high",
+      "category": "preprocessing",
+      "description": "文本中提到慢波或晚期 ERP 成分，同时自动抽取的 high-pass cutoff 高于 0.3 Hz。对 N400/LPP/CNV/SPN 等成分，这可能改变波形形态或振幅。",
+      "evidence": "Data were filtered from 0.5 to 30 Hz and segmented from -200 ms to 800 ms relative to stimulus onset.",
+      "recommendation": "说明滤波选择依据；必要时提供低截止频率敏感性分析，例如 0.1 Hz 与当前设置的对比。",
+      "rationale": ""
+    },
+    {
+      "issue_id": "FILTER_IMPLEMENTATION_UNCLEAR",
+      "title": "滤波器实现细节不足",
+      "severity": "medium",
+      "category": "preprocessing",
+      "description": "文本似乎报告了滤波，但未清楚说明滤波器类型、阶数/长度、相位特性或软件实现。",
+      "evidence": "Data were filtered from 0.5 to 30 Hz and segmented from -200 ms to 800 ms relative to stimulus onset.",
+      "recommendation": "补充 FIR/IIR、阶数或滤波器长度、单向/双向/零相位、软件和版本。",
+      "rationale": ""
+    },
+    {
+      "issue_id": "ICA_CRITERIA_UNCLEAR",
+      "title": "ICA 使用标准不清楚",
+      "severity": "medium",
+      "category": "artifact",
+      "description": "文本提到 ICA，但未识别到成分识别标准或眼电/肌电成分处理规则。",
+      "evidence": "ICA was used to remove ocular artifacts.",
+      "recommendation": "说明 ICA 算法、运行数据、剔除成分数量、成分判定标准，以及是否由盲法/多人评估。",
+      "rationale": ""
+    },
+    {
+      "issue_id": "ARTIFACT_THRESHOLD_UNCLEAR",
+      "title": "伪迹剔除标准不够可复现",
+      "severity": "medium",
+      "category": "artifact",
+      "description": "文本提到 artifact rejection，但未识别到明确阈值或算法标准。",
+      "evidence": "Trials with large artifacts were rejected.",
+      "recommendation": "报告电压阈值、峰峰值阈值、EOG 规则、坏段比例、坏导插值规则和剔除后 trial 数。",
+      "rationale": ""
+    },
+    {
+      "issue_id": "MODEST_TRIAL_COUNT",
+      "title": "trial 数可能不足，需要报告稳定性",
+      "severity": "medium",
+      "category": "data quality",
+      "description": "自动抽取到的 trial/epoch 数低于 35。对小振幅或晚期成分可能不稳定。",
+      "evidence": "After preprocessing, approximately 28 trials per condition remained.",
+      "recommendation": "报告每条件 trial 分布和剔除比例；必要时加入 trial 数作为协变量或敏感性分析。",
+      "rationale": ""
+    },
+    {
+      "issue_id": "MISSING_COMPONENT_TIME_WINDOW",
+      "title": "报告了 ERP 成分但缺少量化时间窗",
+      "severity": "high",
+      "category": "ERP quantification",
+      "description": "文本中识别到 ERP 成分，但未识别到清楚的 mean amplitude/peak amplitude 时间窗。",
+      "evidence": "For the ERP analysis, we focused on N170, N400 and LPP.",
+      "recommendation": "对每个成分预先定义时间窗，例如 N170: 140–200 ms；并说明依据来自文献、预注册或独立 localizer。",
+      "rationale": ""
+    },
+    {
+      "issue_id": "POST_HOC_ROI_TIMEWINDOW",
+      "title": "ROI 或时间窗可能存在事后选择风险",
+      "severity": "high",
+      "category": "ERP quantification/statistics",
+      "description": "文本出现基于显著性、最大振幅或总平均波形选择 ROI/time-window 的迹象。该做法可能引入 circular analysis。",
+      "evidence": "The N400 and LPP were selected based on the largest difference in the grand average waveforms.",
+      "recommendation": "将 ROI/time-window 依据改为先验文献、预注册、独立数据集/localizer，或使用全时空 cluster-based permutation 并如实说明探索性。",
+      "rationale": ""
+    },
+    {
+      "issue_id": "MISSING_MULTIPLE_COMPARISON_CORRECTION",
+      "title": "多重比较校正缺失或不清楚",
+      "severity": "high",
+      "category": "statistics",
+      "description": "文本暗示存在多个电极、时间点、成分、条件或 ROI 检验，但未识别到多重比较控制。",
+      "evidence": "For the ERP analysis, we focused on N170, N400 and LPP.",
+      "recommendation": "说明 family 的定义，并使用 Holm/Bonferroni/FDR、cluster-based permutation 或预注册的少量主检验。",
+      "rationale": ""
+    },
+    {
+      "issue_id": "MISSING_EFFECT_SIZE_CI",
+      "title": "缺少效应量或置信区间",
+      "severity": "medium",
+      "category": "statistics/reporting",
+      "description": "未识别到效应量或置信区间。仅报告 p 值不足以支撑效应大小和不确定性判断。",
+      "evidence": "not reported or not detected",
+      "recommendation": "报告 partial eta squared、Cohen's d、beta/OR 及其置信区间，至少对主要效应报告。",
+      "rationale": ""
+    },
+    {
+      "issue_id": "MISSING_EXCLUSION_CRITERIA",
+      "title": "缺少被试/epoch 排除标准",
+      "severity": "medium",
+      "category": "reproducibility",
+      "description": "未识别到被试或 epoch 的排除标准。EEG 数据质量处理若不透明，会影响可重复性。",
+      "evidence": "not reported or not detected",
+      "recommendation": "报告剔除标准、剔除人数、剔除原因、最终 N、坏导/坏段比例。",
+      "rationale": ""
+    }
+  ],
+  "score": 0,
+  "risk_label": "very high risk",
+  "executive_summary": "自动审查共识别 11 个问题（high=5, medium=6）。优先处理：high: 缺少关键 EEG/ERP 方法参数：reference; high: 高通滤波可能影响慢波/晚期成分解释; high: 报告了 ERP 成分但缺少量化时间窗; high: ROI 或时间窗可能存在事后选择风险; high: 多重比较校正缺失或不清楚。",
+  "recommended_revision": "建议在 Methods 中补充一个独立小节，例如 'EEG recording and preprocessing' 与 'ERP quantification and statistical analysis'。\n最低限度应明确：采集系统、通道数、采样率、在线/离线参考、阻抗、滤波、epoch、baseline、伪迹处理、ICA 标准、剔除后 trial 数、ROI/time-window、统计模型、多重比较校正、效应量/置信区间。\n当前最关键的缺失项包括：缺少关键 EEG/ERP 方法参数：reference、报告了 ERP 成分但缺少量化时间窗、多重比较校正缺失或不清楚、缺少效应量或置信区间、缺少被试/epoch 排除标准。\n已识别 ERP 成分：N170, P3, N400, LPP。请逐一给出先验时间窗、ROI、电极簇和心理解释边界。\n除非 ROI/time-window 已预注册或来自独立 localizer，否则应把相关分析标注为 exploratory，并使用合适的多重比较控制。",
+  "traces": [
+    {
+      "agent": "DocumentParserAgent",
+      "status": "ok",
+      "summary": "完成 EEG/ERP 方法参数抽取。",
+      "details": {
+        "regex_detected_fields": [
+          "participant_n",
+          "channels",
+          "montage",
+          "sampling_rate",
+          "high_pass",
+          "low_pass",
+          "filter_details",
+          "epoch_window",
+          "baseline",
+          "artifact_rejection",
+          "ica",
+          "trial_count",
+          "roi_electrodes",
+          "erp_components",
+          "statistics"
+        ],
+        "text_length": 886
+      }
+    },
+    {
+      "agent": "MethodsAuditAgent",
+      "status": "ok",
+      "summary": "完成规则化方法学审查，发现 11 个问题。",
+      "details": {
+        "severity_counts": {
+          "high": 5,
+          "medium": 6
+        }
+      }
+    },
+    {
+      "agent": "StatisticsAuditAgent",
+      "status": "ok",
+      "summary": "完成统计风险聚合。",
+      "details": {
+        "statistical_model": "Repeated-measures ANOVAs were conducted for each component.",
+        "multiple_comparison": null,
+        "effect_size_ci": null,
+        "stat_issue_ids": [
+          "MISSING_MULTIPLE_COMPARISON_CORRECTION",
+          "MISSING_EFFECT_SIZE_CI"
+        ]
+      }
+    },
+    {
+      "agent": "ComponentInterpretationAgent",
+      "status": "ok",
+      "summary": "完成 ERP 成分解释和量化风险聚合。",
+      "details": {
+        "components": "N170, P3, N400, LPP",
+        "roi": "The N170 was measured at PO7 and PO8.",
+        "time_window": null,
+        "component_issue_ids": [
+          "MISSING_COMPONENT_TIME_WINDOW",
+          "POST_HOC_ROI_TIMEWINDOW"
+        ]
+      }
+    },
+    {
+      "agent": "ReportAgent",
+      "status": "ok",
+      "summary": "完成 Markdown/JSON 报告生成。",
+      "details": {
+        "score": 0,
+        "risk_label": "very high risk"
+      }
+    }
+  ],
+  "llm_enabled": false
+}
