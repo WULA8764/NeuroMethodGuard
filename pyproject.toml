@@ -1,0 +1,22 @@
+[project]
+name = "neuromethodguard"
+version = "0.1.0"
+description = "EEG/ERP methods auditing and QC report agent"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "NeuroMethodGuard MVP"}]
+dependencies = [
+    "openai>=1.0.0",
+    "python-dotenv>=1.0.0",
+    "pypdf>=4.0.0",
+    "python-docx>=1.1.0",
+    "streamlit>=1.32.0",
+    "pandas>=2.0.0",
+]
+
+[project.scripts]
+neuromethodguard = "neuromethodguard.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
